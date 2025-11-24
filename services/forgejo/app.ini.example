@@ -1,0 +1,17 @@
+[server]
+DOMAIN = localhost
+HTTP_ADDR = 127.0.0.1
+HTTP_PORT = 3000
+ROOT_URL = http://localhost:3000/
+
+[database]
+DB_TYPE = sqlite3
+PATH = /mnt/data/srv/forgejo/data/forgejo.db
+
+[repository]
+ROOT = /mnt/data/srv/forgejo/data/gitea-repositories
+
+[security]
+INSTALL_LOCK = true
+SECRET_KEY = <GENERATE_SECURE_KEY>
+
