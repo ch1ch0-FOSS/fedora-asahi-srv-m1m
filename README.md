@@ -16,3 +16,4 @@ It delegates reusable roles and tooling to dedicated repositories:
 2. Copy `inventory/example` to your own inventory and adjust hostnames and groups.
 3. Define real variables in `group_vars/` and `host_vars/` on your own infrastructure (not in this public repo).
 4. Run your playbooks from ansible-playbooks using this inventory structure as a reference.
+# Test sync
